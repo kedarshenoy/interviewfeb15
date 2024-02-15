@@ -1,0 +1,71 @@
+.img1{
+    width: 63px;
+    height: 40.95px;
+  }
+  
+.imgbox {
+    display: flex;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    /* grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); Fill width with minimum 320px */
+    /* grid-auto-rows: 200px; Fixed height of 200px */
+    gap: 10px; /* Set gap to 10px */
+  }
+  
+  .img1:hover {
+    transform: scale(1.7);
+  }
+  
+
+
+.lftsml{
+    background-color: white;
+    width: 320px;
+    height: 142.5px;
+    object-fit: cover; /* or contain, depending on how you want the image to fit */
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Switzer, sans-serif; /* Specify the font family */
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  transition: background-color 0.5s;
+    ;
+}
+.lftsml:hover{
+  background-color:rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.4)
+  ;
+}
+
+.lftsmlx{
+    background-color: white;
+    width: 320px;
+    height: 142.5px;
+    object-fit: cover; /* or contain, depending on how you want the image to fit */
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Switzer, sans-serif;;
+    font-size: 18px;
+    font-weight: 700; /* Bold */
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(0, 0, 0, 1)
+}
+
+.lastleftdiv{
+  width: 320px;
+  height: 225px;
+  background-color: white;
+}
